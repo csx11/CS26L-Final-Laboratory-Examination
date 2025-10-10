@@ -53,10 +53,10 @@ The code is organized with clear separation of concerns:
 ![Main Interface](screenshots/main_interface.jpg)
 
 **Language Progress Tracking**
-![Languages Tab](screenshots/languages_tab.png)
+![Languages Tab](screenshots/languages_tab.jpg)
 
 **Vocabulary Management**
-![Vocabulary Tab](screenshots/vocabulary_tab.png)
+![Vocabulary Tab](screenshots/vocabulary_tab.jpg)
 
 ---
 
@@ -91,3 +91,4 @@ Start building your vocabulary in the "Vocabulary" tab
 
 
 Note: The application will automatically create a user.db SQLite database file in the same directory to store your data.
+
