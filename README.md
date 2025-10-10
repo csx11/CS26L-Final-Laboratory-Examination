@@ -4,8 +4,7 @@
 
 **Proponent(s)**
 
-Xander John Salarda - BSCS
-CS26L Final Laboratory Examination
+Xander John Salarda - BSCS |  CS26L Final Laboratory Examination
 
 ---
 
@@ -89,5 +88,6 @@ Click "Start Learning!" to begin
 Add your first language in the "My Languages" tab
 
 Start building your vocabulary in the "Vocabulary" tab
+
 
 Note: The application will automatically create a user.db SQLite database file in the same directory to store your data.
