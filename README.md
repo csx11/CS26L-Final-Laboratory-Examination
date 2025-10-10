@@ -78,8 +78,9 @@ The code is organized with clear separation of concerns:
 - style.qss
 
 4. **Run the Application:**
-python main.py
-
+   ```bash
+   python main.py
+   
 5. **First-Time Setup**:
 Enter your name in the welcome screen
 
@@ -89,6 +90,7 @@ Add your first language in the "My Languages" tab
 
 Start building your vocabulary in the "Vocabulary" tab
 
-
 Note: The application will automatically create a user.db SQLite database file in the same directory to store your data.
+
+
 
