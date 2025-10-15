@@ -90,7 +90,13 @@ Add your first language in the "My Languages" tab
 
 Start building your vocabulary in the "Vocabulary" tab
 
-Note: The application will automatically create a user.db SQLite database file in the same directory to store your data.
+Note: 
+Use Microsoft Visual Studio Code
+Install SQLite by alexcvzz Extension (recommended)
+Automatically create a user.db SQLite database file in the same directory to store data.
+Delete pycache before runnning main.py
+Turn off dark mode 
+
 
 
 
