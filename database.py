@@ -1,11 +1,13 @@
 import sqlite3
 
+# Database file name
 DB_NAME = "user.db"
 
 def init_db():
     with sqlite3.connect(DB_NAME) as conn:
         cur = conn.cursor()
         
+        # Create 'users' table to store user information and language progress
         cur.execute("""
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -20,6 +22,7 @@ def init_db():
             )
         """)
         
+        # Create 'vocabulary' table to store words and their definitions
         cur.execute("""
             CREATE TABLE IF NOT EXISTS vocabulary (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -70,14 +73,12 @@ def get_user_languages():
         return [row[0] for row in cur.fetchall()]
 
 def get_username():
-    """Get the first username from the database"""
     with sqlite3.connect(DB_NAME) as conn:
         cur = conn.cursor()
         cur.execute("SELECT username FROM users LIMIT 1")
         result = cur.fetchone()
         return result[0] if result else ""
 
-# Vocabulary functions
 def add_vocabulary(word, definition, language_category=""):
     with sqlite3.connect(DB_NAME) as conn:
         cur = conn.cursor()
@@ -111,7 +112,6 @@ def delete_vocabulary(vocab_id):
         conn.commit()
 
 def get_vocabulary_count_by_language(language):
-    """Get vocabulary count for a specific language"""
     with sqlite3.connect(DB_NAME) as conn:
         cur = conn.cursor()
         cur.execute("SELECT COUNT(*) FROM vocabulary WHERE language_category=?", (language,))
