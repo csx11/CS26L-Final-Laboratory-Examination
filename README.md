@@ -2,7 +2,7 @@
 
 ---
 
-**Proponent(s)**
+**Proponent**
 
 Xander John Salarda - BSCS |  CS26L Final Laboratory Examination
 
@@ -27,9 +27,7 @@ The Language Learning Tracker is a desktop application that helps users monitor 
 
 ---
 
-**Code Design and Structure**
-
-The project follows Object-Oriented Programming principles with a modular architecture:
+**Code Structure**
 
 - **database.py** - Handles all database operations using SQLite, including user management and vocabulary CRUD operations
 - **main_window.py** - Main application window that coordinates between different components and manages the user interface
@@ -37,13 +35,6 @@ The project follows Object-Oriented Programming principles with a modular archit
 - **vocab_tab.py** - Specialized class for vocabulary management functionality
 - **main.py** - Application entry point that initializes the database and applies styling
 - **style.qss** - External stylesheet for consistent and professional UI styling
-
-The code is organized with clear separation of concerns:
-- Database layer abstracted for easy maintenance
-- UI components modularized for reusability
-- Consistent naming conventions (PEP 8 compliant)
-- Comprehensive comments and docstrings
-- Error handling and user feedback throughout
 
 ---
 
@@ -90,6 +81,8 @@ Add your first language in the "My Languages" tab
 
 Start building your vocabulary in the "Vocabulary" tab
 
+---
+
 Note: 
 
 Use Microsoft Visual Studio Code
@@ -101,6 +94,9 @@ Automatically create a user.db SQLite database file in the same directory to sto
 Delete pycache before runnning main.py
 
 Turn off dark mode 
+
+---
+
 
 
 
