@@ -50,13 +50,13 @@ The code is organized with clear separation of concerns:
 ### Screenshots
 
 **Main Application Interface**
-![Main Interface](screenshots/main_interface.jpg)
+![Main Interface](screenshots/main_window.jpg)
 
 **Language Progress Tracking**
 ![Languages Tab](screenshots/languages_tab.jpg)
 
 **Vocabulary Management**
-![Vocabulary Tab](screenshots/vocabulary_tab.jpg)
+![Vocabulary Tab](screenshots/vocab_tab.jpg)
 
 ---
 
@@ -84,13 +84,14 @@ The code is organized with clear separation of concerns:
 5. **First-Time Setup**:
 Enter your name in the welcome screen
 
-Click "Start Learning!" to begin
+Click "Start" to begin
 
 Add your first language in the "My Languages" tab
 
 Start building your vocabulary in the "Vocabulary" tab
 
 Note: The application will automatically create a user.db SQLite database file in the same directory to store your data.
+
 
 
 
